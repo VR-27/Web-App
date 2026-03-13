@@ -5,7 +5,7 @@ e.preventDefault();
 const name = document.getElementById("name").value;
 const email = document.getElementById("email").value;
 
-await fetch("http://localhost:5000/register",{
+await fetch("http://backend:5000/register",{
 
 method: "POST",
 headers:{
